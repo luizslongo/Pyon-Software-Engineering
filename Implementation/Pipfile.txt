@@ -1,0 +1,14 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+py_netgames_client="*"
+lock = "*"
+
+[requires]
+python_version = "3"
+
+[pipenv]
+allow_prereleases = true
